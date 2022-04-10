@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/normalize.css" media="screen">
+<link rel="stylesheet" href="css/reset.css" media="screen">
+<link rel="stylesheet" href="css/css-for-js-collapse/styles.css">
+<title>js-collapse</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body {
+  background-color: #171719;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-header{
+  background-color: #171719;
+}
+.card-body{
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  color: rgb(203, 203, 203)
+}
+a:hover{
+  color: #c29f2b;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #FFCF33;
+}
+a{
+  cursor: pointer;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(75, 75, 75);
+  color: rgb(217, 217, 217);
+}
+
+.topnav a.active {
+  background-color: rgb(75, 75, 75);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav li:not(:first-child) {
+      visibility: hidden;
+      
+      
+    }
+  .topnav a.icon {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a{
+    float: none;
+    visibility: visible;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+
+<ul class="topnav" id="myTopnav">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+</ul>
+</div>
+
+
+
+<div class="page-content">
+  <div class="card" id="about">
+      <p class="card-header">About</p>
+      <p class="card-body">Hello! My Name is <a href="https://iannico322.github.io/Nav-bar/#kung">Kyle Gonzales</a> Im 20yrs old from the City called Cagayan De Oro, single pero unta dili forever"</p>
+  </div>
+
+  <div class="card" id="education">
+      <p class="card-header">Education</p>
+      <p class="card-body"> <b>JHS:</b> Misamis Oriental General Comprehensive High School <br> <b>SHS:</b> Liceo de Cagayan University <br> <b>COLLEGE:</b> University of Science and Technology of Southern Philippines</p>
+  </div>
+
+  <div class="card" id="skills">
+      <p class="card-header">Skills</p>
+      <p class="card-body">-Editing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-Singing <br>
+                           -Coding  &nbsp &nbsp &nbsp &nbsp -Cooking </p>
+  </div>
+
+  <div class="card" id="portfolio">
+      <p class="card-header">Portfolio</p>
+      <p class="card-body">
+          
+          <a href="https://izmekyle.github.io/webdev/prototype/" target="_blank"><b>-My-Webpage</b></a>  <br><br>
+          <a href="https://izmekyle.github.io/webdev/nav-bar/" target="_blank"><b>-Navigation Bar</b></a>   <br><br>
+          <a href="https://izmekyle.github.io/webdev/admin/" target="_blank"><b>-SH Prototype Website</b></a> <br><br>
+      
+      </p>
+  </div>
+
+  <div class="card" id="contact">
+      <p class="card-header">Contact</p>
+      <p class="card-body"><a href="https://izmekyle.github.io/webdev/about-me/" target="_blank">Contact details</a> </p>
+  </div>
+</div>
+<br><br>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className == "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
