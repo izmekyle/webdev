@@ -1,0 +1,238 @@
+body{
+	background: floralwhite;
+
+}
+
+#main ul li a{
+
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	padding: 0
+	margin-left: 20px;
+	color:white;
+	font-size: 17px;
+
+
+}
+.logo img{
+	margin-top: 1vh;
+	float: right;
+	height: 8vh;
+	width: 10vh;
+	position: absolute;
+	top: 0px;
+	left: 42vh
+}
+header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 4vh;
+	padding: 5vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+.container header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 4vh;
+	padding: 5vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:rgb(0,0,0,.9)
+
+
+}
+.container header h1{
+	font-size: 5vh;
+	padding: 0;
+	border: 100px;
+	position: relative;
+	left: 1px;
+	color: white;
+}
+
+.highlight{
+	color: #C68C0D;
+	font-size: 5vh
+}
+
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	
+
+
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background-color: #C68C0D;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+
+#zendex{
+	z-index: 1000;
+}
+
+/*navtxt css*/
+
+.navtxt ul li a{
+	color: white;
+	
+	font-family: sans-serif;
+ 	background:rgb(0,0,0,.9);
+}
+.navtxt ul li a:hover{
+	background-color: #C68C0D;
+}
+.sportsnav ul li a:hover{
+	background-color:#C68C0D;
+}
+.sportsnav ul li a{
+	color: white;
+	font-family: sans-serif;
+	background:rgb(0,0,0,.9);
+	z-index: 1000;
+}
+
+footer{
+	position: absolute;
+	right: .2vh;
+	padding: 15px;
+	margin-right: 0;
+	margin-top: 140vh;
+	color: white;
+	background-color: #C68C0D;
+	text-align: center;
+	width: 100%
+}
+
+/*css sa case*/
+
+/*Showcase*/
+
+#case{
+	min-height: 400px;
+	background: url(3.jpg) no-repeat -150px -520px;
+	border-bottom: black 5vh solid;	
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	top:10vh;
+	right: 0vh;
+	z-index: 100;
+}
+
+#case h2{
+	margin-top: 160px;
+	font-size: 55px;
+	text-align: center;
+	position: static;
+	bottom: 58vh;
+	left: 70vh;
+}
+
+#case p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*#boxes{
+	overflow: hidden;
+}
+#boxes .box{
+	margin: 10vh;
+}
+#boxes .box1{
+	margin: 10vh;
+
+}
+#boxes .container .box h2{
+	margin-left: 17vh;
+	float: center;
+	font-size: 35px;
+}
+#boxes .container .box1 h3{
+	margin-left: 17vh;
+	float: center;
+	font-size: 30px;
+}*/
+.box2{
+	text-indent: justify;
+	width: 40%;
+	height: 50%;
+	margin-bottom: 50vh;
+	position: absolute;
+	top: 90vh;
+	left: 10vh;
+
+}
+.box1{
+	text-indent: justify;
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	top: 140vh;
+	left: 115vh;
+}
+#boxes .container .image-container1 img{
+	width: 80vh;
+	height: 50vh;
+	float:right;
+	margin-right: 10vh;
+	overflow: hidden;
+	position: absolute;
+	top: 86vh;
+	left: 113vh;
+	border-radius: 20%;
+
+
+
+
+
+}
+#boxes .container .image-container2 img{
+	width: 80vh;
+	height: 50vh;
+	margin-left: 10vh;
+	float: right;
+	position: absolute;
+	top: 140vh;
+	left: 5vh;
+	border-radius: 20%;
+}
+footer{
+	padding: 15px;
+	margin-top: 200vh;
+	color: white;
+	background-color: #C68C0D;
+	text-align: center;
+}

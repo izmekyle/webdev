@@ -1,0 +1,258 @@
+/* css sa sched dari!*/
+#vs-table .sched1 table{
+	width: 100px;
+	height: 40vh;
+	font-size:2em;
+	font-family: 'Libre Baskerville', serif;
+	margin:10px;
+	border-spacing:none;
+	border: 5px grey solid;
+	border-collapse: collapse;
+	width: 40%;
+	position: absolute;
+	top: 30vh;
+	left:115vh;
+
+}
+
+#vs-table h2{
+	font-size: 7vh;
+	position: absolute;
+	top: 10vh;
+	left: 133vh;
+}
+#vs-table h3{
+	position: absolute;
+	font-size: 3vh;
+	font-weight: lighter;
+	left: 136vh;
+	top: 33vh;
+}
+#vs-table p{
+	position: absolute;
+	float: center;
+	top: 22vh;
+	left: 145vh;
+	font-size: 3vh;
+	font-weight: bold;
+}
+#vs-table .sched2 table{
+	width: 100px;
+	height: 40vh;
+	font-size:2em;
+	font-family: 'Libre Baskerville', serif;
+	margin:10px;
+	border-spacing:none;
+	border: 5px grey solid;
+	border-collapse: collapse;
+	width: 40%;
+	position: absolute;
+	top: 85vh;
+	left:115vh;
+
+}
+#vs-table .sched2 th{
+	margin-top: 100vh;
+}
+
+#vs-table h4{
+	position: absolute;
+	font-size: 3vh;
+	font-weight: lighter;
+	left: 136vh;
+	top: 88vh;
+}
+#vs-table .sched1{
+	z-index: 100;
+}
+.image-container{
+	padding: 0;
+	margin:0;
+}
+
+.image-container img{
+	width: 51%;
+	height:140vh;
+	border-right: 10px grey solid;
+	padding: 0;
+	margin: 0;
+}
+.cirlce1{
+	background-color: skyblue;
+	border-radius: 50%;
+	position: absolute;
+	top: 85vh;
+	left:115vh;
+}
+/*main css sa index*/
+
+body{
+	background: floralwhite;
+	padding: 0;
+	margin: 0;
+
+}
+
+/*NAAA DRI ANG CASE*/
+/*#case{
+	margin-left: 0;
+	padding:0;
+	min-height: 400px;
+	background: url(3.jpg) no-repeat -700px, -50vh;
+	width: 50%;
+	height: 150vh;
+	border-right: 6px grey solid;
+}*/
+
+#main ul li a{
+
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	padding: 0
+	margin-left: 20px;
+	color:white;
+	font-size: 17px;
+
+
+}
+.logo img{
+	margin-top: 1vh;
+	float: right;
+	height: 8vh;
+	width: 10vh;
+	position: absolute;
+	top: 0px;
+	left: 39vh
+}
+header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 4vh;
+	padding: 5vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 500;
+}
+.container header h1{
+	font-size: 5vh;
+	padding: 0;
+	border: 100px;
+	position: relative;
+	left: 1px;
+	color: white;
+}
+
+.highlight{
+	color: #C68C0D;
+	font-size: 5vh
+}
+
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	
+
+
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background-color: #C68C0D;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+
+
+/*Stem main header*/
+.container header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 4vh;
+	padding: 5vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:rgb(0,0,0,1)
+}
+
+/*navtxt css*/
+
+.navtxt ul li a{
+	color: white;
+	font-family: sans-serif;
+ 	background:rgb(0,0,0,.5);
+ 	z-index: 1000;
+}
+.navtxt ul li a:hover{
+	background-color: #C68C0D;
+	z-index: 1000;
+}
+.sportsnav ul li a:hover{
+	background-color:#C68C0D;
+	z-index: 1000;
+}
+.sportsnav ul li a{
+	color: white;
+	font-family: sans-serif;
+	background:rgb(0,0,0,.5);
+	z-index: 1000;
+	
+}
+
+footer{
+	position: absolute;
+	right: 0vh;
+	padding: 15px;
+	margin-right: 0;
+	margin-top: 0;
+	color: white;
+	background-color: #C68C0D;
+	text-align: center;
+	width: 100%
+}
+
+.add {
+	margin: 0;
+	padding: 0;
+	overflow: 0;
+	position: absolute;
+	top: 130vh;
+	left: 149vh;
+	
+}
+.add ul li a{
+	text-decoration: none;
+	list-style-type:none;
+	width: 20vh;
+	border: 2px grey solid;
+	border-radius: 50%;
+	font-weight: lighter;
+	color: black;
+}
+.add ul li a:hover{
+	background-color:#C68C0D;
+}

@@ -1,0 +1,17 @@
+.box {
+    border: 5px solid teal;
+    margin:5%;
+    width: 200px;
+    }
+    .minibox {
+    border: 5px solid teal;
+    margin:5%;
+    width: 50px;
+    }
+    .width {
+    width: 100%;
+    }
+    .max {
+    max-width: 100%;
+    }
+    

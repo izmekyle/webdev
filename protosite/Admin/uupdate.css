@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Libre Baskerville', serif;
+	color:white;
+	font-size: 17px;
+}
+
+#main{
+	width: 100%;
+	height: 100vh;
+	
+	background-size: cover;
+}
+#main ul li a{
+	background:rgb(0,0,0,.3)
+}
+
+
+#main h1{
+	font-size: 4vh;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 4vh;
+	padding: 6vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:rgb(0,0,0,.9)
+
+}
+#main .highlight{
+	color: #C68C0D;
+	font-size: 5vh;
+}
+.logo img{
+	position: relative;
+	margin-top: 1vh;
+	margin-left: -26vh;
+	height: 8vh;
+	width: 10vh;
+}
+	
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 3.5vh;
+	
+
+
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background-color: #C68C0D;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+/*naa dari anmg hover sa subtxt*/
+#main ul li a:hover{
+	background-color: #C68C0D;
+}
+
+
+h2{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 20vh;
+	left: 75vh;
+	color: black;
+	font-size: 4vh;
+}
+.p1 p {
+	margin: 0;
+	padding: 0;
+	color: black;
+	position: absolute;
+	top: 30vh;
+	width: 70%;
+	text-align:justify;
+	left: 30vh;	
+	font-size: 14px;
+}
+h3{
+	margin: 0;
+	padding: 0;
+	color: black;
+	position: absolute;
+	top: 65vh;
+	left: 85vh;
+	font-size: 4vh;
+}
+.p2 p{
+	margin: 0;
+	padding: 2vh;
+	color: black;
+	position: absolute;
+	top: 75vh;
+	left: 20vh;
+	border: 2px black solid;
+
+}
+.p3 p{
+	margin: 0;
+	padding: 2vh;
+	color: black;
+	position: absolute;
+	top: 75vh;
+	left:65vh;
+	border: 2px black solid;
+}
+.p4 p{
+	margin: 0;
+	padding: 2vh;
+	color: black;
+	position: absolute;
+	top: 75vh;
+	left: 105vh;
+	border: 2px black solid;
+}
+.p5 p{
+	margin: 0;
+	padding: 2vh;
+	color: black;
+	position: absolute;
+	top: 75vh;
+	left: 149vh;
+	border: 2px black solid;
+}
