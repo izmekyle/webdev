@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.loginpage {
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    overflow: hidden;
+    background-image: url(../img/bg.gif);
+
+
+
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    position: absolute;
+    z-index: 2;
+}
+.boxform {
+    top: 20vh;
+    width: 55vh;
+    height: 60vh;
+    position: relative;
+    margin: auto;
+
+    padding: 5px;
+    overflow: hidden;
+
+
+    background: rgba(49, 49, 49, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+.boxform #register{
+    top: 14vh;
+}
+
+.boxbutton {
+
+    height: 5vh;
+    width: 34vh;
+    margin: 35px auto;
+    position: relative;
+    background: #233037a6;
+    border-radius: 10px;
+}
+
+.tap {
+    color: #ffff;
+    padding: 9px 4vh;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    background: transparent;
+    border: 0;
+    font-size: 2vh;
+    outline: none;
+    position:relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 18vh;
+    height: 100%;
+    background-image: linear-gradient(to right top, #ff8b00, #ff7f00, #ff7300, #ff6500, #ff5600);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#circle {
+    height: 13vh;
+    width: 15vh;
+    background: #ffff;
+    border-radius: 30px;
+    position: relative;
+    top: 40vh;
+    pointer-events: none;
+    left: 76%;
+    transition: 1s;
+}
+
+img {
+    height: 13vh;
+    width: 15vh;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+#circle:target {
+    opacity: 1;
+    top: 10vh;
+    transition: 1s;
+    pointer-events: auto;
+}
+
+.form {
+    top: 18vh;
+    position: absolute;
+    width: 40vh;
+    transition: .5s;
+}
+
+.input {
+    height: 2vh;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(255, 128, 0);
+    outline: none;
+    font-size: 2vh;
+    color: #e2e2e2;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+}
+
+.input:active {
+    height: 2vh;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(255, 128, 0);
+    outline: none;
+    font-size: 2vh;
+    background-color: #cccccc00;
+    color: #e2e2e2;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+}
+
+::placeholder {
+    color: rgb(176, 176, 176);
+    opacity: 1;
+}
+
+.upload {
+    border-radius: 80px;
+    background: #f3722b;
+    border: none;
+    height: 5vh;
+    width: 10vh;
+    cursor: pointer;
+    color: #ffff;
+}
+
+.submit-btn {
+
+    width: 20vh;
+    padding: 2vh 1vh;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to right top, #efefef, #dedede, #cccccc, #bcbcbc, #ababab);
+    border: 0;
+    font-size: 2vh;
+    color: rgb(75, 75, 75);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.submit-btn:hover {
+    transition: .2s;
+    opacity: .9;
+}
+
+#login {
+    left: 65px;
+
+}
+
+#register {
+    left: 465px;
+
+}
+
+
+

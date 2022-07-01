@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+html{
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    cursor: pointer;
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #303030; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    cursor: pointer;
+	background: rgb(163, 163, 163); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+	background: rgb(243, 243, 243); 
+  }
+
+body{
+    background-color: #17173a;
+}
+
+.home_page {
+    z-index: 1;
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    overflow: hidden;
+    background-image: url(../img/bg.gif);
+    background-repeat:no-repeat ;
+    
+    
+}
+.table_container{
+    cursor: pointer;
+    position: relative;
+    margin: 4% 0 0 29%;
+    height: 300px;
+    width: 64%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.table_container2{
+    position: relative;
+    margin: 3% 0 0 29%;
+    height: 340px;
+    width: 64%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.table_container h1{
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+.table_container2 h1{
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.table_container  tr:nth-child(even){background-color: rgb(50,53,57);}
+
+tbody tr:nth-child(odd):hover{background-color: rgb(255, 255, 255);}
+th{
+    font-size: 2vh;
+    letter-spacing: .2px; 
+    font-family: 'Roboto Mono', monospace;
+}
+td,tbody{
+    font-family: 'Inter', sans-serif;
+    color: rgb(205, 205, 205);
+    font-size: 1.7vh;
+}
+
+
+.table_container2 td{
+    font-size: 1.7vh;
+    padding: 4px 2px 4px 15px;
+    letter-spacing: .2px; 
+    font-family: 'Roboto Mono', monospace;
+}
+td,tbody{
+    font-family: 'Inter', sans-serif;
+    color: rgb(205, 205, 205);
+    font-size: 1.7vh;
+}
+.side_bar h1,#btn{
+    top: 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size:2vh;
+    color: rgb(208, 208, 208);
+    position: relative;
+    z-index: 3;
+}
+#btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+.side_bar .name{
+  
+    font-family: 'Roboto Mono', monospace;
+    font-size:2.4vh;
+    color: rgb(255, 145, 0);
+    
+}
+.side_bar .ID{
+  
+    font-family: 'Roboto Mono', monospace;
+    font-size:2.3vh;
+    color: rgb(124, 124, 124);
+    
+}
+
+.side_bar .userType{
+    color: rgb(159, 159, 159);
+}
+
+
+img{
+    border-radius: 50%;
+    
+    height: 200px;
+    width: 200px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+.side_bar{
+  
+    height: 100vh;
+    
+    position: fixed;
+    min-width: 40vh;
+    max-width: 42vh;
+    z-index: 2;
+
+background: rgba(40, 39, 39, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(40, 39, 39, 0.3);
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <product>
+    <ID>1</ID>
+    <NAME>Pens</NAME>
+    <PRICE>12.00</PRICE>
+    <UNITS>10</UNITS>
+  </product>
+  
+  <product>
+    <ID>2</ID>
+    <NAME>Notebook</NAME>
+    <PRICE>50.00</PRICE>
+    <UNITS>20</UNITS>
+  </product>
+
+  <product>
+    <ID>3</ID>
+    <NAME>Glue</NAME>
+    <PRICE>15.25</PRICE>
+    <UNITS>5</UNITS>
+  </product>
+</products>

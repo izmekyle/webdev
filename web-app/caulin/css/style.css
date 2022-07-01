@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3e3e3e;
+}
+table tr:nth-child(even){
+    background-color: #ffffff12;
+}
+
+table tr:nth-child(even):hover{
+    background-color: #ffffff00;
+}
+
+.container{
+    padding-top: 100px;
+    height: 700px;
+    width: 1000px;
+}
+.container h1{
+    font-size: 40px;
+    color: white;
+}
